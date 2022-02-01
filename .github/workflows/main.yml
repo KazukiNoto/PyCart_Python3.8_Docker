@@ -20,5 +20,5 @@ jobs:
           username: ${{ github.actor }}
           password: ${{ secrets.GHCR_TOKEN }}
           registry: ghcr.io
-          repository: kazukinoto/pycart_python3.8_docker
+          repository: kazukinoto/pycart-python38-docker
           tag_with_ref: true
